@@ -3,7 +3,6 @@
 #include "matrixops.hpp"
 
 using namespace std;
-
 Matrix::Matrix(vector<double> list, int l, int w) {
     
     length = l;

@@ -14,8 +14,8 @@ int main() {
     matrix2.printMatrix();
     cout << matrix2.getLength() << " " << matrix2.getWidth() << "\n";
     cout << matrix.getValue(0,0) << "\n";
-    //matrix.addMatrix(matrix2);
-    //matrix.printMatrix();
+    matrix.addMatrix(matrix2);
+    matrix.printMatrix();
     matrix.multiplyMatrix(matrix2);
     matrix.printMatrix();
     matrix.scaleMatrix(-1);

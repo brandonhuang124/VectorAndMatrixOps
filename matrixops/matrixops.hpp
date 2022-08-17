@@ -20,4 +20,5 @@ class Matrix {
         void subtractMatrix(Matrix diffMatrix);
         void scaleMatrix(int scalar);
         void multiplyMatrix(Matrix prodMatrix);
+    
 };
